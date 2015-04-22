@@ -1,3 +1,7 @@
+# My Additions:
+
+In the feedreader.js, I have added the tests described in the last section of this README file. To ensure that the tests are written correctly, I modified the app.js file so that the test failed when the expected result/condition was not met. For example, the test that checks the name property of allFeeds is defined and non-empty can be forced to fail if one of the name properties in allFeeds (in app.js) is set to '' or undefined.
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
